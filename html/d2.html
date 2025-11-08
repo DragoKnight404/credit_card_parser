@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICICI Bank Statement</title>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif; padding: 25px; }
+        .logo { font-size: 28px; font-weight: bold; color: #FF6600; margin-bottom: 10px; }
+        .statement-title { font-size: 20px; border-bottom: 2px solid #333; padding-bottom: 5px; }
+        .content { display: flex; justify-content: space-between; margin-top: 20px; }
+        .left-panel { width: 60%; }
+        .right-panel { width: 35%; background-color: #f5f5f5; padding: 15px; border: 1px solid #e0e0e0; }
+        .right-panel h4 { margin-top: 0; }
+        .right-panel p { display: flex; justify-content: space-between; margin: 8px 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="logo">ICICI Bank</div>
+    <div class="statement-title">Credit Card E-Statement</div>
+
+    <div class="content">
+        <div class="left-panel">
+            <p><strong>Ms. Priya Patel</strong></p>
+            <p>A-404, Silicon Oasis</p>
+            <p>Bengaluru, KA 560100</p>
+            <br>
+            <p>Statement for Card: 
+                <strong>XXXX-9876</strong>
+            </p>
+            <p>Card: 
+                <strong>ICICI Sapphiro Mastercard</strong>
+            </p>
+            <p>Statement Period: 
+                <strong>10/10/2025 to 09/11/2025</strong>
+            </p>
+
+            <table>
+                <tr><th>Date</th><th>Description</th><th>Amount</th></tr>
+                <tr><td>12/10/2025</td><td>SWIGGY</td><td>540.00</td></tr>
+                <tr><td>15/10/2025</td><td>MYNTRA DESIGNS</td><td>3,899.00</td></tr>
+                <tr><td>25/10/2025</td><td>INOX LEISURE LTD</td><td>1,100.00</td></tr>
+            </table>
+        </div>
+
+        <div class="right-panel">
+            <h4>Payment Summary</h4>
+            <p>Total Due: 
+                <span>
+                    <strong>Rs. 18,450.22</strong>
+                </span>
+            </p>
+            <p>Due Date: 
+                <span>
+                    <strong>27/11/2025</strong>
+                </span>
+            </p>
+            <p>Minimum Amount Due:</p>
+            <span>Rs. 922.51</span>
+            <p>Credit Limit:</p>
+            <span>Rs. 2,50,000</span>
+        </div>
+    </div>
+</body>
+</html>

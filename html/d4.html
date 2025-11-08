@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Axis Bank Statement</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; }
+        .header { background-color: #8A004F; color: white; padding: 10px 20px; font-size: 24px; font-weight: bold; }
+        .customer-info { padding: 15px; background-color: #f9f9f9; border: 1px solid #eee; }
+        .summary { border: 2px solid #8A004F; margin-top: 20px; }
+        .summary-header { background-color: #8A004F; color: white; padding: 10px; font-size: 18px; }
+        .summary-body { padding: 15px; display: flex; justify-content: space-around; }
+        .summary-item { text-align: center; }
+        .summary-item h5 { margin: 5px 0; color: #555; }
+        .summary-item p { margin: 5px 0; font-size: 1.3em; font-weight: bold; color: #8A004F; }
+        .details-table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+        .details-table th, .details-table td { padding: 12px; border-bottom: 1px solid #ddd; }
+        .details-table th { background-color: #f4f4f4; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="header">Axis Bank</div>
+    <h3 style="color: #333;">Credit Card Statement</h3>
+
+    <div class="customer-info">
+        <p><strong>Aisha Khan</strong></p>
+        <p>Flat 5, Paradise Towers, Jubilee Hills</p>
+        <p>Hyderabad, TS 500033</p>
+        <p>Card: 
+            <strong>Axis Bank Vistara</strong> 
+            ending in 
+            <strong>8008</strong>
+        </p>
+    </div>
+
+    <div class="summary">
+        <div class="summary-header">Account Summary</div>
+        <div class="summary-body">
+            <div class="summary-item">
+                <h5>Statement Period</h5>
+                <p>
+                    15/10/25 - 14/11/25
+                </p>
+            </div>
+            <div class="summary-item">
+                <h5>Payment Due Date</h5>
+                <p>
+                    04/12/25
+                </p>
+            </div>
+            <div class="summary-item">
+                <h5>Total Amount Due</h5>
+                <p>
+                    ₹ 31,400.75
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <table class="details-table">
+        <tr><th>Date</th><th>Particulars</th><th>Amount (INR)</th></tr>
+        <tr><td>20/10/25</td><td>VISTARA AIRLINES</td><td>15,600.00</td></tr>
+        <tr><td>22/10/25</td><td>BLINKIT</td><td>2,100.25</td></tr>
+        <tr><td>01/11/25</td><td>STARBUCKS</td><td>850.00</td></tr>
+    </table>
+</body>
+</html>
