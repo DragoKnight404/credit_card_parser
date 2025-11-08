@@ -72,7 +72,7 @@ To prove the system's effectiveness, I defined a standard schema for 8+ data poi
     }
   ]
 }
-
+```
 ## 6. Scalability & Future Work
 
 The system's modular architecture is its greatest strength. To add support for a 6th bank (e.g., American Express):
