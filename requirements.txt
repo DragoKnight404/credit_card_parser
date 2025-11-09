@@ -60,7 +60,8 @@ matplotlib==3.10.1
 msgpack==1.1.0
 multidict==6.6.4
 multiprocess==0.70.16
-mysqlclient==2.2.7
+# mysqlclient==2.2.7
+PyMySQL==1.1.1
 numpy==2.2.5
 packaging==24.2
 pandas==2.2.3
